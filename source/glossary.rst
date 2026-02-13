@@ -1,56 +1,56 @@
 ========
-Glossary
+مسرد.
 ========
 
 
-.. glossary::
+.. مسرد:::
 
 
-    Binary Distribution
+      التوزيع الثنائي.      
 
-        A specific kind of :term:`Built Distribution` that contains compiled
-        extensions.
-
-
-    Build Backend
-
-        A library that takes a source tree
-        and builds a :term:`source distribution <Source Distribution (or "sdist")>` or
-        :term:`built distribution <Built Distribution>` from it.
-        The build is delegated to the backend by a
-        :term:`frontend <Build Frontend>`.
-        All backends offer a standardized interface.
-
-        Examples of build backends are
-        :ref:`flit's flit-core <flit>`,
-        :ref:`hatch's hatchling <hatch>`,
-        :ref:`maturin`,
-        :ref:`meson-python`,
-        :ref:`scikit-build-core`,
-        and :ref:`setuptools`.
+      نوع محدد من: المصطلح: "توزيع مبني" يحتوي على تجميعها      
+      ملحقات.      
 
 
-    Build Frontend
+      بناء الخلفية.      
 
-        A tool that users might run
-        that takes arbitrary source trees or
-        :term:`source distributions <Source Distribution (or "sdist")>`
-        and builds source distributions or :term:`wheels <Wheel>` from them.
-        The actual building is delegated to each source tree's
-        :term:`build backend <Build Backend>`.
+      مكتبة تأخذ شجرة المصدر.      
+      ويبني مصطلح: "توزيع المصدر <توزيع المصدر (أو "sdist") >" أو      
+      :term:'بنيت التوزيع <توزيع مبني>' منه.      
+    يتم تفويض البناء إلى الواجهة الخلفية من قبل...    
+ :term:'frontend <Build Frontend>'. 
+    جميع الخلفيات توفر واجهة موحدة.    
 
-        Examples of build frontends are :ref:`pip` and :ref:`build`.
+    أمثلة على إعادة بناء الخلفيات هي.    
+ :المرجع: 'Flit's Flit-core <flit>'، 
+  :المرجع: 'هاتش هاتشلينغ  <هاتش>',  
+  :المرجع: 'ماتورين',  
+  :المرجع: 'ميسون-بيثون'،  
+ :المرجع: 'scikit-Build-Core'، 
+ و: المرجع: 'setuptools'. 
 
 
-    Built Distribution
+ بناء الواجهة الأمامية. 
 
-        A :term:`Distribution <Distribution Package>` format containing files
-        and metadata that only need to be moved to the correct location on the
-        target system, to be installed. :term:`Wheel` is such a format, whereas
-        :term:`Source Distribution <Source Distribution (or
-        "sdist")>` is not, in that it requires a build step before it can be
-        installed.  This format does not imply that Python files have to be
-        precompiled (:term:`Wheel` intentionally does not include compiled
+ أداة يمكن للمستخدمين تشغيلها. 
+ التي تأخذ الأشجار المصدر التعسفي أو... 
+ :term:'توزيعات المصدر <المصدر التوزيع (أو "sdist") >' 
+ ويبني توزيعات المصدر أو: المصطلح: "عجلات <عجلة>" منها. 
+ يتم تفويض المبنى الفعلي إلى كل شجرة مصدر. 
+ :term:'build backend <Build Backend>'. 
+
+ أمثلة على واجهات البناء هي: المرجع: "Pip" و: المرجع: "البناء". 
+
+
+ توزيع مبني. 
+
+ A:term:'Distribution <Distribution Package>' التنسيق الذي يحتوي على ملفات 
+ والبيانات الوصفية التي تحتاج فقط إلى نقلها إلى الموقع الصحيح على 
+.. مسرد:::
+  :term:'المصدر التوزيع <المصدر التوزيع (أو  
+    :term:'بنيت التوزيع <توزيع مبني>' منه.    
+مسرد.
+  تم تجميعها مسبقًا (: المصطلح: "العجلة" لا تتضمن عن قصد تجميعها  
         Python files). See :ref:`package-formats` for more information.
 
 
@@ -61,13 +61,13 @@ Glossary
         or a :term:`Distribution Archive`
         (``PKG-INFO`` in a
         :term:`Sdist <Source Distribution (or "sdist")>`
-        and ``METADATA`` in a :term:`Wheel`).
+   :term:'بنيت التوزيع <توزيع مبني>' منه.   
 
 
-    Core Metadata
+مسرد.
 
-        The :ref:`specification <core-metadata>`
-        and the set of :term:`Core Metadata Field`\s it defines
+ :المرجع:'Flit's Flit-core <flit>'، 
+   أمثلة على إعادة بناء الخلفيات هي.   
         that describe key static attributes of
         a :term:`Distribution Package` or :term:`Installed Project`.
 
